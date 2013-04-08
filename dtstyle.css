@@ -33,6 +33,8 @@ h2 {
 }
 
 
+
+
 h3 {
 	
 	color: #000 ;
@@ -96,17 +98,16 @@ h3 {
 }
 
 .logocon {
-	padding-top: 20;
 	vertical-align: middle;
 }
 
-}
+
 .projects {
-	max-width: 150;
+	max-width: 150px;
 }
 
 @media (max-width: 500) {
 h1 {font-size: 30;
 	letter-spacing:0;}
-.logo {max-width: 20%}
+.logo {background-color: white;}
 }
