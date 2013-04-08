@@ -1,0 +1,112 @@
+
+* {box-sizing: border-box;}
+
+
+body {
+	background-image: url('brooklyn.png');
+	background-position: 50% 0%;
+	background-repeat: no-repeat;
+}
+
+.welcome-text {max-width: 60%}
+
+h1 {
+	max-width: 70%;
+	color: #000000 ;
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 36;
+	letter-spacing: 3px;
+	margin-left:  5%;
+	font-weight: 700;
+}
+h2 {
+	
+	color: #8D8D8D ;
+	font-size: 18;
+	font-family: 'Gentium Book Basic', serif;
+	letter-spacing: 3px;
+	margin-left:  5%; margin-top: 100px;
+	font-weight: 400;
+	margin-bottom: 0px;
+	background-color: #FFF;
+	max-width: 280px;
+}
+
+
+h3 {
+	
+	color: #000 ;
+	font-size: 24;
+	font-family: 'Sacramento', cursive;
+	letter-spacing: 0px;
+	margin-left:  5%; margin-top: 100px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	background-color: #FFF;
+	max-width: 100px;
+}
+
+
+
+/*.icon-container {
+	max-width: 60%;
+	margin-top: 20px;
+}*/
+
+.icons {
+	margin: 0;
+	padding:10 10 10 0;
+	overflow: hidden;
+	margin-left: 5%;
+}
+
+.icons li {
+	float: left;
+	margin-right:35;
+}
+
+.icona li {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.icona:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.logo {
+	display: table-cell; vertical-align: middle;
+	filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE5+ */
+    -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+    padding: 10 20 10 0;
+}
+.logo img{max-width: 100%}
+
+.logo:hover {
+	filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.logocon {
+	padding-top: 20;
+	vertical-align: middle;
+}
+
+}
+.projects {
+	max-width: 150;
+}
+
+@media (max-width: 500) {
+h1 {font-size: 30;
+	letter-spacing:0;}
+.logo {max-width: 20%}
+}
